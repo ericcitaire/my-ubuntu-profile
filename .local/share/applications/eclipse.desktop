@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Eclipse 
+Icon=eclipse
+Exec=env GTK2_RC_FILES=/home/citaire2/.eclipse/gtkrc UBUNTU_MENUPROXY=0 SWT_GTK3=0 GDK_NATIVE_WINDOWS=true /usr/bin/java -Dosgi.requiredJavaVersion=1.7 -XX:MaxPermSize=512m -Xms512m -Xmx4g -jar /home/citaire2/Applications/eclipse-java//plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar -os linux -ws gtk -arch x86_64 -showsplash /home/citaire2/Applications/eclipse-java//plugins/org.eclipse.platform_4.5.2.v20160212-1500/splash.bmp -launcher /home/citaire2/Applications/eclipse-java/eclipse -name Eclipse --launcher.library /home/citaire2/Applications/eclipse-java//plugins/org.eclipse.equinox.launcher.gtk.linux.x86_64_1.1.300.v20150602-1417/eclipse_1612.so -startup /home/citaire2/Applications/eclipse-java//plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar --launcher.appendVmargs -exitdata 378015 -product org.eclipse.epp.package.java.product -vm /usr/bin/java -vmargs -Dosgi.requiredJavaVersion=1.7 -XX:MaxPermSize=512m -Xms512m -Xmx4g -jar /home/citaire2/Applications/eclipse-java//plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar
+StartupNotify=false
+StartupWMClass=Eclipse
+OnlyShowIn=Unity;
+X-UnityGenerated=true
